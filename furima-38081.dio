@@ -37,7 +37,11 @@
                 <mxCell id="102" value="comments" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
                     <mxGeometry x="-80" y="400" width="119" height="101" as="geometry"/>
                 </mxCell>
+<<<<<<< Updated upstream
                 <mxCell id="103" value="text&#10;user_id&#10;item_id" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="102">
+=======
+                <mxCell id="103" value="text_id&#10;user_id&#10;item_id" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="102">
+>>>>>>> Stashed changes
                     <mxGeometry y="30" width="119" height="71" as="geometry"/>
                 </mxCell>
                 <mxCell id="106" value="" style="fontSize=12;html=1;endArrow=ERmandOne;startArrow=ERmandOne;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=-0.005;exitY=0.168;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="90" target="100">
