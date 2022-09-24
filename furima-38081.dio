@@ -1,3 +1,4 @@
+
 <mxfile host="65bd71144e">
     <diagram id="37Y_X_Y8JCTT_t9k_qw2" name="ページ1">
         <mxGraphModel dx="1968" dy="651" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
@@ -10,7 +11,7 @@
                 <mxCell id="90" value="nickname&#10;password&#10;email&#10;first_name&#10;family_name&#10;fiest_name_kana&#10;family_name_kana&#10;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="89">
                     <mxGeometry y="30" width="120" height="130" as="geometry"/>
                 </mxCell>
-                <mxCell id="93" value="items   " style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+                <mxCell id="93" value="items   " style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
                     <mxGeometry x="240" y="400" width="119" height="170" as="geometry"/>
                 </mxCell>
                 <mxCell id="94" value="name&#10;introduction&#10;category&#10;item_condition&#10;charges&#10;address&#10;preparation&#10;price&#10;user_id" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="93">
@@ -37,11 +38,7 @@
                 <mxCell id="102" value="comments" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
                     <mxGeometry x="-80" y="400" width="119" height="101" as="geometry"/>
                 </mxCell>
-<<<<<<< Updated upstream
                 <mxCell id="103" value="text&#10;user_id&#10;item_id" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="102">
-=======
-                <mxCell id="103" value="text_id&#10;user_id&#10;item_id" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="102">
->>>>>>> Stashed changes
                     <mxGeometry y="30" width="119" height="71" as="geometry"/>
                 </mxCell>
                 <mxCell id="106" value="" style="fontSize=12;html=1;endArrow=ERmandOne;startArrow=ERmandOne;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=-0.005;exitY=0.168;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="90" target="100">
