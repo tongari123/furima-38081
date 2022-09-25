@@ -7,19 +7,19 @@
                 <mxCell id="89" value="users" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
                     <mxGeometry x="-80" y="40" width="120" height="190" as="geometry"/>
                 </mxCell>
-                <mxCell id="90" value="nickname&#10;encrypted_password&#10;email&#10;first_name&#10;family_name&#10;first_name_kana&#10;family_name_kana&#10;birthday_yyyy_id&#10;birthday_mm_id&#10;birthday_dd_id " style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="89" vertex="1">
+                <mxCell id="90" value="nickname&#10;encrypted_password&#10;email&#10;first_name&#10;family_name&#10;first_name_kana&#10;family_name_kana&#10;birthday" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="89" vertex="1">
                     <mxGeometry y="30" width="120" height="160" as="geometry"/>
                 </mxCell>
                 <mxCell id="93" value="items   " style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
                     <mxGeometry x="239" y="290" width="119" height="170" as="geometry"/>
                 </mxCell>
-                <mxCell id="94" value="name&#10;introduction&#10;category&#10;item_condition&#10;charges&#10;address&#10;preparation_day&#10;price&#10;user" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="93" vertex="1">
+                <mxCell id="94" value="name&#10;introduction&#10;category_id&#10;item_condition_id&#10;charges_id&#10;address_id&#10;preparation_day_id&#10;price&#10;user " style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="93" vertex="1">
                     <mxGeometry y="30" width="119" height="140" as="geometry"/>
                 </mxCell>
                 <mxCell id="95" value="destination" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
                     <mxGeometry x="550" y="40" width="118" height="160" as="geometry"/>
                 </mxCell>
-                <mxCell id="96" value="post_code&#10;prefectures&#10;municipality&#10;address&#10;phone_number&#10;purchase" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="95" vertex="1">
+                <mxCell id="96" value="post_code&#10;address_id&#10;municipality&#10;house number&#10;Building_name&#10;phone_number&#10;purchase " style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="95" vertex="1">
                     <mxGeometry y="29" width="118" height="131" as="geometry"/>
                 </mxCell>
                 <mxCell id="98" value="purchase" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
