@@ -2,23 +2,11 @@ class ItemsController < ApplicationController
   def index
   end
 
-  def new
-    @item = Item.new
+  # def new
+  # @item = Item.new
+  # end
 
-  end
-
-
-  def create
-    @item = Item.new(item_params)
-
-  end
-
-
-
-
-
+  # def create
+  # @item = Item.new(item_params)
+  # end
 end
-
-
-
-
