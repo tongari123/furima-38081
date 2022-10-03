@@ -79,7 +79,17 @@ RSpec.describe User, type: :model do
 
       it '  パスワードは、半角英数字混合での入力しないと保存できない ' do
         @user.password = 'aaaaaa'
+        @user.valid?
+        expect(@user.errors.full_messages).to include("Password confirmation doesn't match Password", "Password is invalid")
+      end
+
+      it '  パスワードは、半角英数字混合での入力しないと保存できない ' do
         @user.password = '111111'
+        @user.valid?
+        expect(@user.errors.full_messages).to include("Password confirmation doesn't match Password", "Password is invalid")
+      end
+
+      it '  パスワードは、半角英数字混合での入力しないと保存できない ' do
         @user.password = '11111Ａ'
         @user.valid?
         expect(@user.errors.full_messages).to include("Password confirmation doesn't match Password", "Password is invalid")
