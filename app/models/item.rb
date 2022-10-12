@@ -13,6 +13,7 @@ class Item < ApplicationRecord
   belongs_to :preparation_day
 
   with_options presence: true do
+    validates :user_id
     validates :image
     validates :name
     validates :introduction
