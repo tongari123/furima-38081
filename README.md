@@ -26,7 +26,7 @@
 | introduction        | text        | null: false                    |
 | category_id         | integer     | null: false                    |
 | item_condition_id   | integer     | null: false                    |
-| charges_id          | integer     | null: false                    |
+| charge_id           | integer     | null: false                    |
 | address_id          | integer     | null: false                    |
 | preparation_day_id  | integer     | null: false                    |
 | price               | integer     | null: false                    |
