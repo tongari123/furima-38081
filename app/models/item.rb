@@ -3,7 +3,6 @@ class Item < ApplicationRecord
   extend ActiveHash::Associations::ActiveRecordExtensions
 
   belongs_to :user
-  has_one_attached :image
 
   
   belongs_to :category
@@ -11,6 +10,8 @@ class Item < ApplicationRecord
   belongs_to :charge
   belongs_to :address
   belongs_to :preparation_day
+
+  has_one_attached :image
 
   with_options presence: true do
     validates :image
