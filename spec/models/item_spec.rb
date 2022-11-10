@@ -10,7 +10,7 @@ RSpec.describe Item, type: :model do
         expect(@item).to be_valid
       end
       it 'カテゴリーが「---」以外であれば登録できる' do
-        @item.category_id = 1
+        @item.category_id = 2
         expect(@item).to be_valid
       end
       it '商品の状態が「---」以外であれば登録できる' do
@@ -18,7 +18,7 @@ RSpec.describe Item, type: :model do
         expect(@item).to be_valid
       end
       it '配送料の負担が「---」以外であれば登録できる' do
-        @item.charges_id = 1
+        @item.charge_id = 1
         expect(@item).to be_valid
       end
       it '発送元の地域が「---」以外であれば登録できる' do
@@ -77,14 +77,14 @@ RSpec.describe Item, type: :model do
         expect(@item.errors.full_messages).to include("Item condition can't be blank")
       end
       it '配送料の負担の情報が「---」だと出品できない' do
-        @item.charges_id = 0
+        @item.charge_id = 0
         @item.valid?
-        expect(@item.errors.full_messages).to include('Charges must be other than 0')
+        expect(@item.errors.full_messages).to include('Charge must be other than 0')
       end
       it '配送料の負担の情報が空欄だと出品できない' do
-        @item.charges_id = nil
+        @item.charge_id = nil
         @item.valid?
-        expect(@item.errors.full_messages).to include("Charges can't be blank")
+        expect(@item.errors.full_messages).to include("Charge can't be blank")
       end
       it '発送元の地域の情報が「---」だと出品できない' do
         @item.address_id = 0

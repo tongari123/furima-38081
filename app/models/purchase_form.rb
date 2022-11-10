@@ -11,8 +11,7 @@ class PurchaseForm
     validates :address_id, numericality: { other_than: 0, message: "can't be blank" }
     validates :municipality
     validates :house_number
-    validates :building_name
-    validates :phone_number, format: { with: /\A[0-9]{11}\z/, message: 'is invalid' }
+    validates :phone_number, format: { with: /\A[0-9]{10,11}\z/, message: 'is invalid' }
     validates :token
   end
 
