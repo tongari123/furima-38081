@@ -25,8 +25,7 @@ class ItemsController < ApplicationController
   def show
   end
   
-  def edit
-  end
+  
 
   def update
     if @item.update(item_params)
@@ -54,7 +53,7 @@ class ItemsController < ApplicationController
   end
 
   def user_signed
-    unless @item.user_id == current_user.id
+    unless @item.user_id == current_user.id && @item.purchase.nil?
       redirect_to root_path
     end
   end
